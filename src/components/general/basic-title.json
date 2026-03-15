@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_general_basic_titles",
+  "info": {
+    "displayName": "basic_title",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

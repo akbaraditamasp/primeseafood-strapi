@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_general_detailed_list_sections",
+  "info": {
+    "displayName": "detailed_list_section",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "person": {
+      "type": "component",
+      "component": "general.detailed-media-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

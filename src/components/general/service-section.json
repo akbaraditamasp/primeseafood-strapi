@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_general_service_sections",
+  "info": {
+    "displayName": "service_section",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cards": {
+      "type": "component",
+      "component": "general.basic-media-card",
+      "repeatable": true,
+      "required": true
+    }
+  },
+  "config": {}
+}

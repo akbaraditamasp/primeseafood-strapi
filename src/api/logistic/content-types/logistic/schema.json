@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "logistics",
+  "info": {
+    "singularName": "logistic",
+    "pluralName": "logistics",
+    "displayName": "logistic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "introduction": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.basic-section",
+      "repeatable": false
+    },
+    "shipping_partner": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.detail-media-list",
+      "repeatable": true
+    },
+    "export_terms": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.features-section",
+      "repeatable": false
+    },
+    "virtual_tour": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.basic-section",
+      "repeatable": false
+    }
+  }
+}

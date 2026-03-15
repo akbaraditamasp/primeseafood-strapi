@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_icon_lists",
+  "info": {
+    "displayName": "icon_list",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "config": {}
+}

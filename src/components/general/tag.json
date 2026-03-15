@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_general_tags",
+  "info": {
+    "displayName": "tag",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

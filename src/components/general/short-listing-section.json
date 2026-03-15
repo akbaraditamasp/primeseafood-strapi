@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_general_short_listing_sections",
+  "info": {
+    "displayName": "short_listing_section",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "component",
+      "component": "general.icon-list",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_simple_heroes",
+  "info": {
+    "displayName": "simple_hero",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}

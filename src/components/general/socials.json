@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_socials",
+  "info": {
+    "displayName": "icon_link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

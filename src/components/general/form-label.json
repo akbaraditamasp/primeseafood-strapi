@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_general_form_labels",
+  "info": {
+    "displayName": "form_label",
+    "icon": "italic"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "config": {}
+}

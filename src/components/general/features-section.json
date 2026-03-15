@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_general_features_sections",
+  "info": {
+    "displayName": "features_section",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "component",
+      "component": "general.icon-list",
+      "repeatable": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "mini_tag": {
+      "type": "component",
+      "component": "general.tag",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
