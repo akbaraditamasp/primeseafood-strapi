@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "facility_visits",
+  "collectionName": "request_quotes",
   "info": {
-    "singularName": "facility-visit",
-    "pluralName": "facility-visits",
-    "displayName": "facility_visit"
+    "singularName": "request-quote",
+    "pluralName": "request-quotes",
+    "displayName": "request_quote"
   },
   "options": {
     "draftAndPublish": true
