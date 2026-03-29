@@ -74,6 +74,15 @@
       },
       "required": true
     },
+    "whatsapp": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
     "email": {
       "type": "email",
       "pluginOptions": {
