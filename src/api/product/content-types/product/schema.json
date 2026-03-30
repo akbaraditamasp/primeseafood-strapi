@@ -60,14 +60,14 @@
       },
       "required": true
     },
-    "image": {
+    "images": {
       "type": "media",
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "multiple": false,
+      "multiple": true,
       "allowedTypes": [
         "images",
         "files"

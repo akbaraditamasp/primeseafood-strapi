@@ -197,7 +197,7 @@ export interface GeneralShortListingSection extends Struct.ComponentSchema {
   attributes: {
     description: Schema.Attribute.Text & Schema.Attribute.Required;
     label: Schema.Attribute.String & Schema.Attribute.Required;
-    list: Schema.Attribute.Component<'general.icon-list', true>;
+    list: Schema.Attribute.Component<'general.basic-media-card', true>;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }

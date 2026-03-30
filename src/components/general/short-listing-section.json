@@ -20,7 +20,7 @@
     },
     "list": {
       "type": "component",
-      "component": "general.icon-list",
+      "component": "general.basic-media-card",
       "repeatable": true
     }
   },
